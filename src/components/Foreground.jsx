@@ -22,6 +22,12 @@ function Foreground() {
       close: false,
       tag: { isOpened: true, text: "Download Now", color: "green" },
     },
+    {
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      filesize: ".4mb",
+      close: false,
+      tag: { isOpened: true, text: "Download Now", color: "blue" },
+    },
   ];
   return (
     <div ref={ref} className="fixed top-0 left-0 z-[3] w-full h-full flex gap-10 p-5 flex-wrap">
