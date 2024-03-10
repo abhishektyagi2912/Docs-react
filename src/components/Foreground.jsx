@@ -8,13 +8,13 @@ function Foreground() {
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
       filesize: ".4mb",
       close: true,
-      tag: { isOpened: false, text: "Download Now", color: "green" },
+      tag: { isOpened: false, text: "Download Now", color: "blue" },
     },
     {
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
       filesize: ".4mb",
       close: false,
-      tag: { isOpened: true, text: "Download Now", color: "green" },
+      tag: { isOpened: true, text: "Download Now", color: "blue" },
     },
     {
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",

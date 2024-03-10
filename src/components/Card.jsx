@@ -20,9 +20,7 @@ function Card({ data, refrence }) {
           {data.close ? <IoMdClose /> : <MdDownload />}
         </div>
         {data.tag.isOpened ? (
-          <div
-            className={`tag w-full py-4 bg-${data.tag.color}-600 flex justify-center`}
-          >
+          <div className={`tag w-full py-4 ${data.tag.color=='blue'? "bg-blue-600" : "bg-green-600"} flex justify-center`}>
             <h3 className="text-sm font-semibold">{data.tag.text}</h3>
           </div>
         ) : null}
